@@ -1,0 +1,163 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALSA_H	alsa.h	2;"	d
+AR	Makefile	/^AR            = ar cqs$/;"	m
+BUFFERSIZE	decoder.h	8;"	d
+CC	Makefile	/^CC            = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS        = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CHANNELS	alsa.cpp	7;"	d	file:
+CHANNELS	alsa.h	5;"	d
+CHK_DIR_EXISTS	Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+COMPRESS	Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COPY	Makefile	/^COPY          = cp -f$/;"	m
+COPY_DIR	Makefile	/^COPY_DIR      = $(COPY) -r$/;"	m
+COPY_FILE	Makefile	/^COPY_FILE     = $(COPY)$/;"	m
+CURL_BUFFER_H	curl_buffer.h	2;"	d
+CURL_H	curl.h	2;"	d
+CXX	Makefile	/^CXX           = g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS      = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+DEFINES	Makefile	/^DEFINES       = -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m
+DEL_DIR	Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_FILE	Makefile	/^DEL_FILE      = rm -f$/;"	m
+DESTDIR	Makefile	/^DESTDIR       = $/;"	m
+DIST	Makefile	/^DIST          = \/usr\/local\/Trolltech\/Qt-4.3.2\/mkspecs\/common\/g++.conf \\$/;"	m
+FILE_H	file.h	2;"	d
+FLAG_H	flag.h	2;"	d
+INCPATH	Makefile	/^INCPATH       = -I\/usr\/local\/Trolltech\/Qt-4.3.2\/mkspecs\/linux-g++ -I. -I\/usr\/local\/Trolltech\/Qt-4.3.2\/include\/QtCore -I\/usr\/local\/Trolltech\/Qt-4.3.2\/include\/QtCore -I\/usr\/local\/Trolltech\/Qt-4.3.2\/include\/QtGui -I\/usr\/local\/Trolltech\/Qt-4.3.2\/include\/QtGui -I\/usr\/local\/Trolltech\/Qt-4.3.2\/include -I. -I. -I.$/;"	m
+INSTALL_DIR	Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
+INSTALL_FILE	Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+LFLAGS	Makefile	/^LFLAGS        = -Wl,-rpath,\/usr\/local\/Trolltech\/Qt-4.3.2\/lib$/;"	m
+LIBS	Makefile	/^LIBS          = $(SUBLIBS)  -L\/usr\/local\/Trolltech\/Qt-4.3.2\/lib -lQtGui -L\/usr\/local\/Trolltech\/Qt-4.3.2\/lib -L\/usr\/X11R6\/lib -lXext -lX11 -lQtCore -lz -lm -lrt -ldl -lpthread -lasound -lmad -lcurl$/;"	m
+LINK	Makefile	/^LINK          = g++$/;"	m
+MAD_H	decoder.h	2;"	d
+MESSAGE_H	message.h	2;"	d
+MKDIR	Makefile	/^MKDIR         = mkdir -p$/;"	m
+MOVE	Makefile	/^MOVE          = mv -f$/;"	m
+MUSIC	dialog.h	2;"	d
+MusicDialog	dialog.cpp	/^MusicDialog::MusicDialog()$/;"	f	class:MusicDialog
+MusicDialog	dialog.h	/^class MusicDialog : public QDialog$/;"	c
+OBJECTS	Makefile	/^OBJECTS       = alsa.o \\$/;"	m
+OBJECTS_DIR	Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+PCM_DEVICE	alsa.cpp	8;"	d	file:
+PCM_DEVICE	alsa.h	6;"	d
+QMAKE	Makefile	/^QMAKE         = \/usr\/local\/Trolltech\/Qt-4.3.2\/bin\/qmake$/;"	m
+QMAKE_TARGET	Makefile	/^QMAKE_TARGET  = lab-gui$/;"	m
+RANLIB	Makefile	/^RANLIB        = $/;"	m
+SAMPLE_RATE	alsa.cpp	6;"	d	file:
+SAMPLE_RATE	alsa.h	4;"	d
+SED	Makefile	/^SED           = sed$/;"	m
+SOURCES	Makefile	/^SOURCES       = alsa.cpp \\$/;"	m
+SYMLINK	Makefile	/^SYMLINK       = ln -sf$/;"	m
+TAR	Makefile	/^TAR           = tar -cf$/;"	m
+TARGET	Makefile	/^TARGET        = lab-gui$/;"	m
+close_curl	curl.cpp	/^int close_curl()$/;"	f
+close_mad	decoder.cpp	/^int close_mad() $/;"	f
+continueButton	dialog.h	/^		QPushButton *continueButton;$/;"	m	class:MusicDialog
+continueMusic	dialog.cpp	/^void MusicDialog::continueMusic()$/;"	f	class:MusicDialog
+continue_mad	decoder.cpp	/^int continue_mad()$/;"	f
+createActions	dialog.cpp	/^void MusicDialog::createActions()$/;"	f	class:MusicDialog
+createButtons	dialog.cpp	/^void MusicDialog::createButtons()$/;"	f	class:MusicDialog
+curl_buffer	curl_buffer.h	/^typedef struct curl_buffer {$/;"	s
+curl_buffer_strt	curl_buffer.h	/^} curl_buffer_strt, *curl_buffer_t;$/;"	t	typeref:struct:curl_buffer
+curl_buffer_t	curl_buffer.h	/^} curl_buffer_strt, *curl_buffer_t;$/;"	t	typeref:struct:curl_buffer
+curl_flag	curl.cpp	/^static flag_t *curl_flag;$/;"	v	file:
+curl_func	curl.cpp	/^static void *curl_func(void * share_file) $/;"	f	file:
+curl_init	curl.cpp	/^int curl_init(file_t share_file)$/;"	f
+curl_start_lock	curl.cpp	/^static pthread_mutex_t	curl_start_lock;$/;"	v	file:
+curl_thread	curl.cpp	/^static pthread_t curl_thread;$/;"	v	file:
+destroy_curl_buffer	curl_buffer.cpp	/^void destroy_curl_buffer(curl_buffer_t cbuf)$/;"	f
+destroy_flag	flag.cpp	/^int destroy_flag(flag_t *pflag)$/;"	f
+destroy_mad	decoder.cpp	/^static int destroy_mad(mad_t mad) $/;"	f	file:
+eof	file.h	/^	int 					eof;$/;"	m	struct:file_struct
+error	decoder.cpp	/^static enum mad_flow error (void *data, struct mad_stream *stream, struct mad_frame *frame)$/;"	f	file:
+exitButton	dialog.h	/^		QPushButton *exitButton;$/;"	m	class:MusicDialog
+exitMusic	dialog.cpp	/^void MusicDialog::exitMusic()$/;"	f	class:MusicDialog
+file	curl_buffer.h	/^    file_t      file;$/;"	m	struct:curl_buffer
+file	decoder.h	/^	file_t 				file;$/;"	m	struct:mad_struct
+file_close	file.cpp	/^int file_close(file_t file)$/;"	f
+file_flush	file.cpp	/^int file_flush(file_t file)$/;"	f
+file_open	file.cpp	/^file_t file_open(const char * file_name, const char *mode)$/;"	f
+file_read	file.cpp	/^size_t file_read(void *user_buffer, long offset, size_t count, file_t file)$/;"	f
+file_strt	file.h	/^} file_strt,*file_t ;$/;"	t	typeref:struct:file_struct
+file_struct	file.h	/^typedef struct file_struct {$/;"	s
+file_t	file.h	/^} file_strt,*file_t ;$/;"	t	typeref:struct:file_struct
+file_write	file.cpp	/^size_t file_write(void *user_buffer, long offset, size_t count, file_t file)$/;"	f
+flag	flag.h	/^	 char flag;$/;"	m	struct:flag_strt
+flag_strt	flag.h	/^typedef struct flag_strt {$/;"	s
+flag_t	flag.h	/^}flag_t;$/;"	t	typeref:struct:flag_strt
+fp	file.h	/^	FILE *					fp;$/;"	m	struct:file_struct
+get_file_size	file.cpp	/^long get_file_size(file_t file)$/;"	f
+get_flag	flag.cpp	/^char get_flag(flag_t *pflag) {$/;"	f
+get_music_url	curl.cpp	/^const char * get_music_url()$/;"	f
+hwparams	alsa.cpp	/^static snd_pcm_hw_params_t *hwparams = NULL;$/;"	v	file:
+igetchar	message.cpp	/^char igetchar() {$/;"	f
+imessage_init	message.cpp	/^int imessage_init() {$/;"	f
+init_alsa	alsa.cpp	/^int init_alsa(unsigned long samplerate, int pcm_channels )$/;"	f
+input	decoder.cpp	/^static enum mad_flow input (void *data, struct mad_stream *stream)$/;"	f	file:
+input_char	message.cpp	/^char input_char;$/;"	v
+inputlock	message.cpp	/^pthread_mutex_t inputlock;$/;"	v
+inputsem	message.cpp	/^pthread_mutex_t inputsem;$/;"	v
+iputchar	message.cpp	/^int iputchar(char c) {$/;"	f
+is_endof_file	file.cpp	/^int is_endof_file(file_t file)$/;"	f
+is_going_to_close	flag.cpp	/^int is_going_to_close(flag_t *pflag)$/;"	f
+is_going_to_next	flag.cpp	/^int is_going_to_next(flag_t *pflag)$/;"	f
+is_going_to_start	flag.cpp	/^int is_going_to_start(flag_t *pflag)$/;"	f
+label	dialog.h	/^		QLabel 		*label;$/;"	m	class:MusicDialog
+live_size	decoder.h	/^    size_t              live_size;$/;"	m	struct:mad_struct
+lock	file.h	/^	pthread_mutex_t			lock;$/;"	m	struct:file_struct
+lock	flag.h	/^	 pthread_mutex_t lock;$/;"	m	struct:flag_strt
+mad_flag	decoder.cpp	/^static flag_t * mad_flag;$/;"	v	file:
+mad_func	decoder.cpp	/^static void* mad_func(void *data) $/;"	f	file:
+mad_init	decoder.cpp	/^int mad_init(file_t share_file) $/;"	f
+mad_loop_lock	decoder.cpp	/^static pthread_mutex_t mad_loop_lock;$/;"	v	file:
+mad_stop_lock	decoder.cpp	/^static pthread_mutex_t mad_stop_lock;$/;"	v	file:
+mad_strt	decoder.h	/^}mad_strt, *mad_t;$/;"	t	typeref:struct:mad_struct
+mad_struct	decoder.h	/^typedef struct mad_struct {$/;"	s
+mad_t	decoder.h	/^}mad_strt, *mad_t;$/;"	t	typeref:struct:mad_struct
+mad_thread	decoder.cpp	/^static pthread_t mad_thread;$/;"	v	file:
+main	dialog.cpp	/^int main(int argc, char **argv)$/;"	f
+mdata	decoder.h	/^	unsigned char 		mdata[BUFFERSIZE];$/;"	m	struct:mad_struct
+metaObject	moc_dialog.cpp	/^const QMetaObject *MusicDialog::metaObject() const$/;"	f	class:MusicDialog
+new_curl_buffer	curl_buffer.cpp	/^curl_buffer_t new_curl_buffer(file_t f)$/;"	f
+new_flag	flag.cpp	/^flag_t * new_flag()$/;"	f
+new_mad	decoder.cpp	/^static mad_t new_mad(file_t file)$/;"	f	file:
+nextButton	dialog.h	/^		QPushButton *nextButton;$/;"	m	class:MusicDialog
+nextMusic	dialog.cpp	/^void MusicDialog::nextMusic()$/;"	f	class:MusicDialog
+next_curl	curl.cpp	/^int next_curl()$/;"	f
+next_mad	decoder.cpp	/^int next_mad()$/;"	f
+offset	curl_buffer.h	/^    long        offset;$/;"	m	struct:curl_buffer
+offset	decoder.h	/^	long 				offset;$/;"	m	struct:mad_struct
+output	decoder.cpp	/^static enum mad_flow output (void *data, struct mad_header const *header, struct mad_pcm *pcm)$/;"	f	file:
+pcm_handle	alsa.cpp	/^static snd_pcm_t *pcm_handle = NULL;$/;"	v	file:
+play_func	iplayer.cpp	/^void* play_func(void *data) {$/;"	f
+qt_meta_data_MusicDialog	moc_dialog.cpp	/^static const uint qt_meta_data_MusicDialog[] = {$/;"	v	file:
+qt_meta_stringdata_MusicDialog	moc_dialog.cpp	/^static const char qt_meta_stringdata_MusicDialog[] = {$/;"	v	file:
+qt_metacall	moc_dialog.cpp	/^int MusicDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:MusicDialog
+qt_metacast	moc_dialog.cpp	/^void *MusicDialog::qt_metacast(const char *_clname)$/;"	f	class:MusicDialog
+recovery_alsa	alsa.cpp	/^int recovery_alsa(int err)$/;"	f
+scale	decoder.cpp	/^static inline signed int scale (mad_fixed_t sample)$/;"	f	file:
+set_flag	flag.cpp	/^void set_flag(flag_t *pflag, char c)$/;"	f
+size	file.h	/^	long 					size;$/;"	m	struct:file_struct
+startButton	dialog.h	/^		QPushButton *startButton;$/;"	m	class:MusicDialog
+startMusic	dialog.cpp	/^void MusicDialog::startMusic()$/;"	f	class:MusicDialog
+start_curl	curl.cpp	/^int start_curl()$/;"	f
+start_mad	decoder.cpp	/^int start_mad()$/;"	f
+staticMetaObject	moc_dialog.cpp	/^const QMetaObject MusicDialog::staticMetaObject = {$/;"	m	class:MusicDialog	file:
+stdin_func	message.cpp	/^void* stdin_func(void *data) {$/;"	f
+stopButton	dialog.h	/^		QPushButton *stopButton;$/;"	m	class:MusicDialog
+stopMusic	dialog.cpp	/^void MusicDialog::stopMusic()$/;"	f	class:MusicDialog
+stop_mad	decoder.cpp	/^int stop_mad()$/;"	f
+stream	decoder.h	/^    struct mad_stream   *stream;$/;"	m	struct:mad_struct	typeref:struct:mad_struct::mad_stream
+thr_iplayer	dialog.h	/^		pthread_t thr_iplayer;$/;"	m	class:MusicDialog
+thr_iplayer	iplayer.cpp	/^pthread_t thr_iplayer;$/;"	v
+thr_message	message.cpp	/^pthread_t thr_message;$/;"	v
+thr_stdin	message.cpp	/^pthread_t thr_stdin;$/;"	v
+wait_curl	curl.cpp	/^int wait_curl()$/;"	f
+wait_mad	decoder.cpp	/^int wait_mad()$/;"	f
+write_data	curl.cpp	/^static size_t write_data(void *ptr, size_t size, size_t nmemb, void *stream)$/;"	f	file:
+write_to_alsa	alsa.cpp	/^long write_to_alsa(unsigned char *output_buffer, unsigned int n) {$/;"	f
